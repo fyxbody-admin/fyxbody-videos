@@ -1,0 +1,36 @@
+**/bin/
+**/obj/
+.vs/
+.vscode/
+.idea/
+.DS_Store
+TestResults/
+*.user
+*.suo
+.env
+.env.*
+!.env.example
+**/appsettings.Local.json
+*.pfx
+*.pem
+*.key
+artifacts/
+
+# Local media and test database backups (never versioned)
+.local/
+
+# Generated launch media, dependency caches and temporary imports
+brag-output/
+**/node_modules/
+**/__pycache__/
+**/*.pyc
+.cache/
+.npm/
+.pytest_cache/
+**/fyxbody-import-*/
+**/fyxbody-video-*.tmp
+**/*.part
+**/*.ytdl
+
+# Generated local HEVC cache index
+/src/FyxBody.Videos.Api/wwwroot/portal/local-hevc-reuse.json

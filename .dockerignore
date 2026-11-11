@@ -1,0 +1,25 @@
+**/bin
+**/obj
+.git
+.local
+.env
+.env.*
+**/appsettings.Local.json
+**/*.pfx
+**/*.pem
+**/*.key
+artifacts
+TestResults
+
+# Generated launch media, dependency caches and temporary imports
+brag-output/
+**/node_modules/
+**/__pycache__/
+**/*.pyc
+.cache/
+.npm/
+.pytest_cache/
+**/fyxbody-import-*/
+**/fyxbody-video-*.tmp
+**/*.part
+**/*.ytdl

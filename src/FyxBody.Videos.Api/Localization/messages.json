@@ -1,0 +1,1300 @@
+{
+  "request.failed": {
+    "source": "The request could not be completed.",
+    "es": "No se ha podido completar la petición.",
+    "ca": "No s'ha pogut completar la petició.",
+    "en": "The request could not be completed.",
+    "ar": "تعذر إكمال الطلب."
+  },
+  "request.invalid": {
+    "source": "The request is invalid.",
+    "es": "La petición no es válida.",
+    "ca": "La petició no és vàlida.",
+    "en": "The request is invalid.",
+    "ar": "الطلب غير صالح."
+  },
+  "request.unreadable": {
+    "source": "The request could not be read.",
+    "es": "No se ha podido leer la petición.",
+    "ca": "No s'ha pogut llegir la petició.",
+    "en": "The request could not be read.",
+    "ar": "تعذرت قراءة الطلب."
+  },
+  "request.not_found": {
+    "source": "The requested resource was not found.",
+    "es": "No se ha encontrado el recurso solicitado.",
+    "ca": "No s'ha trobat el recurs sol·licitat.",
+    "en": "The requested resource was not found.",
+    "ar": "لم يتم العثور على المورد المطلوب."
+  },
+  "request.conflict": {
+    "source": "A resource with these identifiers already exists.",
+    "es": "Ya existe un recurso con estos identificadores.",
+    "ca": "Ja existeix un recurs amb aquests identificadors.",
+    "en": "A resource with these identifiers already exists.",
+    "ar": "يوجد مورد بهذه المعرّفات بالفعل.",
+    "aliases": [
+      "Ya existe un recurso con el mismo identificador o combinación única."
+    ]
+  },
+  "request.constraint": {
+    "source": "The resource violates a data constraint.",
+    "es": "El recurso incumple una restricción de datos.",
+    "ca": "El recurs incompleix una restricció de dades.",
+    "en": "The resource violates a data constraint.",
+    "ar": "المورد لا يستوفي أحد قيود البيانات."
+  },
+  "database.unavailable": {
+    "source": "The database is temporarily unavailable.",
+    "es": "La base de datos no está disponible temporalmente.",
+    "ca": "La base de dades no està disponible temporalment.",
+    "en": "The database is temporarily unavailable.",
+    "ar": "قاعدة البيانات غير متاحة مؤقتًا."
+  },
+  "auth.partner_required": {
+    "source": "Valid partner credentials are required.",
+    "es": "Se requieren credenciales válidas del cliente.",
+    "ca": "Calen credencials vàlides del client.",
+    "en": "Valid partner credentials are required.",
+    "ar": "يلزم تقديم بيانات اعتماد صالحة للعميل."
+  },
+  "auth.admin_required": {
+    "source": "Valid administrator credentials are required.",
+    "es": "Se requieren credenciales válidas de administrador.",
+    "ca": "Calen credencials vàlides d'administrador.",
+    "en": "Valid administrator credentials are required.",
+    "ar": "يلزم تقديم بيانات اعتماد صالحة للمسؤول."
+  },
+  "auth.sign_in": {
+    "source": "Sign in to continue.",
+    "es": "Inicia sesión para continuar.",
+    "ca": "Inicia la sessió per continuar.",
+    "en": "Sign in to continue.",
+    "ar": "سجّل الدخول للمتابعة."
+  },
+  "auth.forbidden": {
+    "source": "Access is forbidden.",
+    "es": "No tienes permiso para acceder.",
+    "ca": "No tens permís per accedir-hi.",
+    "en": "Access is forbidden.",
+    "ar": "ليس لديك إذن بالوصول."
+  },
+  "auth.login": {
+    "source": "Invalid username or password.",
+    "es": "El usuario o la contraseña no son válidos.",
+    "ca": "L'usuari o la contrasenya no són vàlids.",
+    "en": "Invalid username or password.",
+    "ar": "اسم المستخدم أو كلمة المرور غير صحيحين."
+  },
+  "auth.partner_unavailable": {
+    "source": "Partner access is unavailable.",
+    "es": "El acceso del cliente no está disponible.",
+    "ca": "L'accés del client no està disponible.",
+    "en": "Partner access is unavailable.",
+    "ar": "الوصول الخاص بالعميل غير متاح."
+  },
+  "auth.csrf": {
+    "source": "The security token is missing or expired; refresh your session.",
+    "es": "El token de seguridad falta o ha caducado; actualiza la sesión.",
+    "ca": "Falta el testimoni de seguretat o ha caducat; actualitza la sessió.",
+    "en": "The security token is missing or expired; refresh your session.",
+    "ar": "رمز الأمان مفقود أو منتهي الصلاحية؛ حدّث الجلسة."
+  },
+  "auth.csrf_retry": {
+    "source": "Refresh the page and retry the request.",
+    "es": "Actualiza la página y vuelve a intentar la petición.",
+    "ca": "Actualitza la pàgina i torna a intentar la petició.",
+    "en": "Refresh the page and retry the request.",
+    "ar": "حدّث الصفحة وأعد محاولة الطلب."
+  },
+  "rate.limit": {
+    "source": "Too many requests; retry after the indicated delay.",
+    "es": "Demasiadas peticiones; vuelve a intentarlo tras el plazo indicado.",
+    "ca": "Massa peticions; torna-ho a intentar després del termini indicat.",
+    "en": "Too many requests; retry after the indicated delay.",
+    "ar": "عدد الطلبات كبير جدًا؛ أعد المحاولة بعد المدة المحددة.",
+    "aliases": [
+      "Too many requests."
+    ]
+  },
+  "password.length": {
+    "source": "Passwords must contain between 12 and 128 characters.",
+    "es": "La contraseña debe contener entre 12 y 128 caracteres.",
+    "ca": "La contrasenya ha de contenir entre 12 i 128 caràcters.",
+    "en": "Passwords must contain between 12 and 128 characters.",
+    "ar": "يجب أن تتكون كلمة المرور من 12 إلى 128 حرفًا."
+  },
+  "password.unchanged": {
+    "source": "Choose a different password.",
+    "es": "Elige una contraseña diferente.",
+    "ca": "Tria una contrasenya diferent.",
+    "en": "Choose a different password.",
+    "ar": "اختر كلمة مرور مختلفة."
+  },
+  "user.username": {
+    "source": "Use 3 to 128 letters, digits or @ . _ + - characters for the username.",
+    "es": "El usuario debe tener entre 3 y 128 letras, números o caracteres @ . _ + -.",
+    "ca": "L'usuari ha de tenir entre 3 i 128 lletres, números o caràcters @ . _ + -.",
+    "en": "Use 3 to 128 letters, digits or @ . _ + - characters for the username.",
+    "ar": "يجب أن يتكون اسم المستخدم من 3 إلى 128 حرفًا أو رقمًا أو من الرموز @ . _ + -."
+  },
+  "user.display_name": {
+    "source": "Display name must contain 1 to 200 characters.",
+    "es": "El nombre visible debe contener entre 1 y 200 caracteres.",
+    "ca": "El nom visible ha de contenir entre 1 i 200 caràcters.",
+    "en": "Display name must contain 1 to 200 characters.",
+    "ar": "يجب أن يتكون الاسم المعروض من 1 إلى 200 حرف."
+  },
+  "user.role": {
+    "source": "Partner users require a partner; administrator users cannot have one.",
+    "es": "Los usuarios de cliente requieren un cliente; los administradores no pueden tener uno asignado.",
+    "ca": "Els usuaris de client requereixen un client; els administradors no en poden tenir cap assignat.",
+    "en": "Partner users require a partner; administrator users cannot have one.",
+    "ar": "يجب ربط مستخدمي العميل بعميل، ولا يمكن ربط المسؤولين بعميل."
+  },
+  "user.partner_not_found": {
+    "source": "Partner does not exist.",
+    "es": "El cliente no existe.",
+    "ca": "El client no existeix.",
+    "en": "Partner does not exist.",
+    "ar": "العميل غير موجود."
+  },
+  "user.exists": {
+    "source": "Username already exists.",
+    "es": "El nombre de usuario ya existe.",
+    "ca": "El nom d'usuari ja existeix.",
+    "en": "Username already exists.",
+    "ar": "اسم المستخدم موجود بالفعل."
+  },
+  "user.self_disable": {
+    "source": "You cannot disable your own account.",
+    "es": "No puedes desactivar tu propia cuenta.",
+    "ca": "No pots desactivar el teu propi compte.",
+    "en": "You cannot disable your own account.",
+    "ar": "لا يمكنك تعطيل حسابك الخاص."
+  },
+  "user.last_admin": {
+    "source": "The last active administrator cannot be disabled.",
+    "es": "No se puede desactivar al último administrador activo.",
+    "ca": "No es pot desactivar l'últim administrador actiu.",
+    "en": "The last active administrator cannot be disabled.",
+    "ar": "لا يمكن تعطيل المسؤول النشط الأخير."
+  },
+  "user.not_found": {
+    "source": "User does not exist.",
+    "es": "El usuario no existe.",
+    "ca": "L'usuari no existeix.",
+    "en": "User does not exist.",
+    "ar": "المستخدم غير موجود."
+  },
+  "validation.text_range": {
+    "source": "{field} debe contener entre 1 y {maximum} caracteres sin caracteres de control.",
+    "es": "{field} debe contener entre 1 y {maximum} caracteres sin caracteres de control.",
+    "ca": "{field} ha de contenir entre 1 i {maximum} caràcters, sense caràcters de control.",
+    "en": "{field} must contain 1 to {maximum} characters without control characters.",
+    "ar": "يجب أن يحتوي {field} على 1 إلى {maximum} حرفًا دون أحرف تحكم."
+  },
+  "validation.state": {
+    "source": "status debe ser uno de: {states}.",
+    "es": "status debe ser uno de: {states}.",
+    "ca": "status ha de ser un dels valors següents: {states}.",
+    "en": "status must be one of: {states}.",
+    "ar": "يجب أن تكون قيمة status إحدى القيم التالية: {states}."
+  },
+  "validation.partner_code": {
+    "source": "code debe usar minúsculas, números, guion o guion bajo y empezar por letra o número.",
+    "es": "code debe usar minúsculas, números, guion o guion bajo y empezar por letra o número.",
+    "ca": "code ha d'utilitzar minúscules, números, guió o guió baix i començar per una lletra o un número.",
+    "en": "code must use lowercase letters, digits, hyphens or underscores and start with a letter or digit.",
+    "ar": "يجب أن يستخدم code أحرفًا لاتينية صغيرة أو أرقامًا أو شرطات أو شرطات سفلية، وأن يبدأ بحرف أو رقم."
+  },
+  "validation.license_dates": {
+    "source": "startsAt y endsAt deben ser UTC y endsAt debe ser posterior a startsAt.",
+    "es": "startsAt y endsAt deben ser UTC y endsAt debe ser posterior a startsAt.",
+    "ca": "startsAt i endsAt han de ser UTC i endsAt ha de ser posterior a startsAt.",
+    "en": "startsAt and endsAt must be UTC and endsAt must be later than startsAt.",
+    "ar": "يجب أن تكون startsAt وendsAt بتوقيت UTC، وأن تكون endsAt بعد startsAt."
+  },
+  "validation.license_quota": {
+    "source": "monthlySessionQuota debe ser mayor o igual a cero.",
+    "es": "monthlySessionQuota debe ser mayor o igual a cero.",
+    "ca": "monthlySessionQuota ha de ser superior o igual a zero.",
+    "en": "monthlySessionQuota must be greater than or equal to zero.",
+    "ar": "يجب أن تكون monthlySessionQuota أكبر من أو تساوي صفرًا."
+  },
+  "validation.asset_language": {
+    "source": "language debe ser una etiqueta de idioma admitida, por ejemplo es o en-US.",
+    "es": "language debe ser una etiqueta de idioma admitida, por ejemplo es o en-US.",
+    "ca": "language ha de ser una etiqueta d'idioma admesa, per exemple es o en-US.",
+    "en": "language must be a supported language tag, such as es or en-US.",
+    "ar": "يجب أن تكون language علامة لغة مقبولة، مثل es أو en-US."
+  },
+  "validation.asset_container": {
+    "source": "blobContainer debe ser un nombre válido de contenedor Azure (3–63 caracteres).",
+    "es": "blobContainer debe ser un nombre válido de contenedor Azure (3–63 caracteres).",
+    "ca": "blobContainer ha de ser un nom de contenidor Azure vàlid (3–63 caràcters).",
+    "en": "blobContainer must be a valid Azure container name (3–63 characters).",
+    "ar": "يجب أن تكون blobContainer اسم حاوية Azure صالحًا يتكون من 3 إلى 63 حرفًا."
+  },
+  "validation.asset_path": {
+    "source": "blobName debe ser una ruta relativa de blob, sin URL, query, codificación ni segmentos vacíos o de navegación.",
+    "es": "blobName debe ser una ruta relativa de blob, sin URL, query, codificación ni segmentos vacíos o de navegación.",
+    "ca": "blobName ha de ser una ruta relativa de blob, sense URL, consulta, codificació ni segments buits o de navegació.",
+    "en": "blobName must be a relative blob path without a URL, query, encoding, empty segments or navigation segments.",
+    "ar": "يجب أن تكون blobName مسارًا نسبيًا لكائن التخزين دون عنوان URL أو استعلام أو ترميز أو مقاطع فارغة أو مقاطع تنقل."
+  },
+  "validation.asset_type": {
+    "source": "contentType debe ser video/mp4.",
+    "es": "contentType debe ser video/mp4.",
+    "ca": "contentType ha de ser video/mp4.",
+    "en": "contentType must be video/mp4.",
+    "ar": "يجب أن تكون قيمة contentType هي video/mp4."
+  },
+  "validation.asset_sizes": {
+    "source": "sizeBytes y durationMs no pueden ser negativos y deben ser positivos para un asset ready.",
+    "es": "sizeBytes y durationMs no pueden ser negativos y deben ser positivos para un archivo ready.",
+    "ca": "sizeBytes i durationMs no poden ser negatius i han de ser positius per a un fitxer ready.",
+    "en": "sizeBytes and durationMs must be nonnegative and positive for a ready asset.",
+    "ar": "لا يمكن أن تكون sizeBytes وdurationMs سالبتين، ويجب أن تكونا موجبتين للملف في حالة ready."
+  },
+  "validation.catalogue_ids": {
+    "source": "videoIds es obligatorio; máximo 1000 UUID no vacíos, sin duplicados.",
+    "es": "videoIds es obligatorio; máximo 1000 UUID no vacíos, sin duplicados.",
+    "ca": "videoIds és obligatori; màxim 1000 UUID no buits i sense duplicats.",
+    "en": "videoIds is required; supply at most 1000 nonempty UUIDs without duplicates.",
+    "ar": "الحقل videoIds مطلوب؛ يُسمح بحد أقصى 1000 معرّف UUID غير فارغ دون تكرار."
+  },
+  "pagination.admin": {
+    "source": "page debe ser positivo y pageSize debe estar entre 1 y 100.",
+    "es": "page debe ser positivo y pageSize debe estar entre 1 y 100.",
+    "ca": "page ha de ser positiu i pageSize ha d'estar entre 1 i 100.",
+    "en": "page must be positive and pageSize must be between 1 and 100.",
+    "ar": "يجب أن تكون page موجبة، وأن تكون pageSize بين 1 و100."
+  },
+  "pagination.partner": {
+    "source": "Page must be positive and pageSize between 1 and 100.",
+    "es": "La página debe ser positiva y pageSize debe estar entre 1 y 100.",
+    "ca": "La pàgina ha de ser positiva i pageSize ha d'estar entre 1 i 100.",
+    "en": "Page must be positive and pageSize between 1 and 100.",
+    "ar": "يجب أن يكون رقم الصفحة موجبًا، وأن تكون pageSize بين 1 و100."
+  },
+  "pagination.portal": {
+    "source": "Invalid page or pageSize.",
+    "es": "La página o pageSize no son válidos.",
+    "ca": "La pàgina o pageSize no són vàlids.",
+    "en": "Invalid page or pageSize.",
+    "ar": "رقم الصفحة أو pageSize غير صالح."
+  },
+  "credential.expiry": {
+    "source": "expiresAt debe estar en UTC y ser futuro.",
+    "es": "expiresAt debe estar en UTC y ser futuro.",
+    "ca": "expiresAt ha d'estar en UTC i ser una data futura.",
+    "en": "expiresAt must be in UTC and in the future.",
+    "ar": "يجب أن تكون expiresAt بتوقيت UTC وفي المستقبل."
+  },
+  "validation.catalogue_exists": {
+    "source": "Todos los videoIds deben existir.",
+    "es": "Todos los videoIds deben existir.",
+    "ca": "Tots els videoIds han d'existir.",
+    "en": "All videoIds must exist.",
+    "ar": "يجب أن تكون جميع معرّفات videoIds موجودة."
+  },
+  "usage.month_admin": {
+    "source": "month debe usar YYYY-MM, con año anterior a 9999.",
+    "es": "month debe usar YYYY-MM, con año anterior a 9999.",
+    "ca": "month ha d'utilitzar YYYY-MM, amb un any anterior a 9999.",
+    "en": "month must use YYYY-MM with a year before 9999.",
+    "ar": "يجب أن تستخدم month التنسيق YYYY-MM بسنة تسبق 9999."
+  },
+  "usage.month": {
+    "source": "Month must use YYYY-MM.",
+    "es": "El mes debe usar YYYY-MM.",
+    "ca": "El mes ha d'utilitzar YYYY-MM.",
+    "en": "Month must use YYYY-MM.",
+    "ar": "يجب أن يكون الشهر بالتنسيق YYYY-MM."
+  },
+  "resource.not_found": {
+    "source": "No se ha encontrado {resource}.",
+    "es": "No se ha encontrado {resource}.",
+    "ca": "No s'ha trobat {resource}.",
+    "en": "Could not find {resource}.",
+    "ar": "لم يتم العثور على {resource}.",
+    "aliases": [
+      "No se ha encontrado {resource}."
+    ]
+  },
+  "resource.partner": {
+    "source": "partner",
+    "es": "el cliente",
+    "ca": "el client",
+    "en": "the partner",
+    "ar": "العميل"
+  },
+  "resource.license": {
+    "source": "license",
+    "es": "la licencia",
+    "ca": "la llicència",
+    "en": "the license",
+    "ar": "الترخيص"
+  },
+  "resource.video": {
+    "source": "video",
+    "es": "el vídeo",
+    "ca": "el vídeo",
+    "en": "the video",
+    "ar": "الفيديو"
+  },
+  "resource.asset": {
+    "source": "asset",
+    "es": "el archivo",
+    "ca": "el fitxer",
+    "en": "the asset",
+    "ar": "ملف الفيديو"
+  },
+  "resource.credential": {
+    "source": "credential",
+    "es": "la credencial",
+    "ca": "la credencial",
+    "en": "the credential",
+    "ar": "بيانات الاعتماد"
+  },
+  "asset.in_use": {
+    "source": "El asset tiene sesiones emitidas. Registra otro asset para cambiar blob, idioma o rendition.",
+    "es": "El archivo tiene sesiones emitidas. Registra otro archivo para cambiar el blob, el idioma o la versión.",
+    "ca": "El fitxer té sessions emeses. Registra un altre fitxer per canviar el blob, l'idioma o la versió.",
+    "en": "The asset has issued sessions. Register another asset to change its blob, language or rendition.",
+    "ar": "للملف جلسات صادرة. سجّل ملفًا آخر لتغيير كائن التخزين أو اللغة أو النسخة."
+  },
+  "validation.allowed_container": {
+    "source": "blobContainer no está permitido en Storage:AllowedContainers.",
+    "es": "blobContainer no está permitido en Storage:AllowedContainers.",
+    "ca": "blobContainer no està permès a Storage:AllowedContainers.",
+    "en": "blobContainer is not allowed in Storage:AllowedContainers.",
+    "ar": "قيمة blobContainer غير مسموح بها في Storage:AllowedContainers."
+  },
+  "video.unavailable": {
+    "source": "Video is unavailable.",
+    "es": "El vídeo no está disponible.",
+    "ca": "El vídeo no està disponible.",
+    "en": "Video is unavailable.",
+    "ar": "الفيديو غير متاح."
+  },
+  "asset.unavailable": {
+    "source": "Asset is unavailable.",
+    "es": "El archivo no está disponible.",
+    "ca": "El fitxer no està disponible.",
+    "en": "Asset is unavailable.",
+    "ar": "ملف الفيديو غير متاح."
+  },
+  "video.not_ready": {
+    "source": "The video file is not ready for playback.",
+    "es": "El archivo de vídeo no está listo para reproducirse.",
+    "ca": "El fitxer de vídeo no està preparat per reproduir-se.",
+    "en": "The video file is not ready for playback.",
+    "ar": "ملف الفيديو غير جاهز للتشغيل."
+  },
+  "storage.configuration": {
+    "source": "Video storage is not configured for this asset.",
+    "es": "El almacenamiento de vídeo no está configurado para este archivo.",
+    "ca": "L'emmagatzematge de vídeo no està configurat per a aquest fitxer.",
+    "en": "Video storage is not configured for this asset.",
+    "ar": "تخزين الفيديو غير مُعدّ لهذا الملف."
+  },
+  "storage.unavailable": {
+    "source": "Video storage is temporarily unavailable.",
+    "es": "El almacenamiento de vídeo no está disponible temporalmente.",
+    "ca": "L'emmagatzematge de vídeo no està disponible temporalment.",
+    "en": "Video storage is temporarily unavailable.",
+    "ar": "تخزين الفيديو غير متاح مؤقتًا."
+  },
+  "storage.cleanup": {
+    "source": "Video storage cleanup is temporarily unavailable.",
+    "es": "La limpieza del almacenamiento de vídeo no está disponible temporalmente.",
+    "ca": "La neteja de l'emmagatzematge de vídeo no està disponible temporalment.",
+    "en": "Video storage cleanup is temporarily unavailable.",
+    "ar": "تنظيف تخزين الفيديو غير متاح مؤقتًا."
+  },
+  "storage.object_exists": {
+    "source": "The generated storage object already exists; retry the upload.",
+    "es": "El objeto de almacenamiento generado ya existe; vuelve a intentar la subida.",
+    "ca": "L'objecte d'emmagatzematge generat ja existeix; torna a intentar la pujada.",
+    "en": "The generated storage object already exists; retry the upload.",
+    "ar": "كائن التخزين المُنشأ موجود بالفعل؛ أعد محاولة الرفع."
+  },
+  "session.permission_expired": {
+    "source": "The playback permission has expired.",
+    "es": "El permiso de reproducción ha caducado.",
+    "ca": "El permís de reproducció ha caducat.",
+    "en": "The playback permission has expired.",
+    "ar": "انتهت صلاحية إذن التشغيل."
+  },
+  "idempotency.required": {
+    "source": "A nonempty Idempotency-Key of at most 128 characters is required.",
+    "es": "Se requiere una Idempotency-Key no vacía de hasta 128 caracteres.",
+    "ca": "Cal una Idempotency-Key no buida de fins a 128 caràcters.",
+    "en": "A nonempty Idempotency-Key of at most 128 characters is required.",
+    "ar": "يلزم توفير Idempotency-Key غير فارغ لا يزيد عن 128 حرفًا."
+  },
+  "idempotency.conflict": {
+    "source": "The key was already used with another request.",
+    "es": "La clave ya se ha usado con otra petición.",
+    "ca": "La clau ja s'ha utilitzat amb una altra petició.",
+    "en": "The key was already used with another request.",
+    "ar": "استُخدم المفتاح بالفعل مع طلب آخر."
+  },
+  "session.expired": {
+    "source": "Use a new key to request another session.",
+    "es": "Usa una clave nueva para solicitar otra sesión.",
+    "ca": "Utilitza una clau nova per sol·licitar una altra sessió.",
+    "en": "Use a new key to request another session.",
+    "ar": "استخدم مفتاحًا جديدًا لطلب جلسة أخرى."
+  },
+  "license.unavailable": {
+    "source": "The license is unavailable.",
+    "es": "La licencia no está disponible.",
+    "ca": "La llicència no està disponible.",
+    "en": "The license is unavailable.",
+    "ar": "الترخيص غير متاح."
+  },
+  "license.not_covered": {
+    "source": "No valid license covers this video.",
+    "es": "Ninguna licencia válida incluye este vídeo.",
+    "ca": "Cap llicència vàlida inclou aquest vídeo.",
+    "en": "No valid license covers this video.",
+    "ar": "لا يشمل أي ترخيص صالح هذا الفيديو."
+  },
+  "session.license_changed": {
+    "source": "The license term changed; use a new idempotency key.",
+    "es": "La vigencia de la licencia ha cambiado; usa una nueva clave de idempotencia.",
+    "ca": "La vigència de la llicència ha canviat; utilitza una clau d'idempotència nova.",
+    "en": "The license term changed; use a new idempotency key.",
+    "ar": "تغيّرت مدة الترخيص؛ استخدم مفتاح تكرار آمن جديدًا."
+  },
+  "quota.exceeded": {
+    "source": "The monthly session quota has been reached.",
+    "es": "Se ha alcanzado la cuota mensual de sesiones.",
+    "ca": "S'ha assolit la quota mensual de sessions.",
+    "en": "The monthly session quota has been reached.",
+    "ar": "تم بلوغ الحد الشهري للجلسات."
+  },
+  "playback.configuration": {
+    "source": "Playback lifetime is invalid.",
+    "es": "La duración del permiso de reproducción no es válida.",
+    "ca": "La durada del permís de reproducció no és vàlida.",
+    "en": "Playback lifetime is invalid.",
+    "ar": "مدة صلاحية إذن التشغيل غير صالحة."
+  },
+  "events.count": {
+    "source": "Submit between 1 and 50 events.",
+    "es": "Envía entre 1 y 50 eventos.",
+    "ca": "Envia entre 1 i 50 esdeveniments.",
+    "en": "Submit between 1 and 50 events.",
+    "ar": "أرسل من 1 إلى 50 حدثًا."
+  },
+  "events.invalid": {
+    "source": "Invalid event key, kind or position.",
+    "es": "La clave, el tipo o la posición del evento no son válidos.",
+    "ca": "La clau, el tipus o la posició de l'esdeveniment no són vàlids.",
+    "en": "Invalid event key, kind or position.",
+    "ar": "مفتاح الحدث أو نوعه أو موضعه غير صالح."
+  },
+  "session.unavailable": {
+    "source": "Session is unavailable.",
+    "es": "La sesión no está disponible.",
+    "ca": "La sessió no està disponible.",
+    "en": "Session is unavailable.",
+    "ar": "الجلسة غير متاحة."
+  },
+  "events.time": {
+    "source": "The event is outside the permitted session or receipt window.",
+    "es": "El evento está fuera del periodo permitido de sesión o recepción.",
+    "ca": "L'esdeveniment és fora del període permès de sessió o recepció.",
+    "en": "The event is outside the permitted session or receipt window.",
+    "ar": "الحدث خارج الفترة المسموح بها للجلسة أو الاستلام."
+  },
+  "events.position": {
+    "source": "Position exceeds video duration.",
+    "es": "La posición supera la duración del vídeo.",
+    "ca": "La posició supera la durada del vídeo.",
+    "en": "Position exceeds video duration.",
+    "ar": "الموضع يتجاوز مدة الفيديو."
+  },
+  "events.conflict": {
+    "source": "The event key was already used with another payload.",
+    "es": "La clave del evento ya se ha usado con otros datos.",
+    "ca": "La clau de l'esdeveniment ja s'ha utilitzat amb unes altres dades.",
+    "en": "The event key was already used with another payload.",
+    "ar": "استُخدم مفتاح الحدث بالفعل مع بيانات أخرى."
+  },
+  "concurrency.retry": {
+    "source": "Please retry the operation.",
+    "es": "Vuelve a intentar la operación.",
+    "ca": "Torna a intentar l'operació.",
+    "en": "Please retry the operation.",
+    "ar": "أعد محاولة العملية."
+  },
+  "concurrency.conflict": {
+    "source": "A conflicting request was processed; retry with the same key.",
+    "es": "Se ha procesado una petición en conflicto; vuelve a intentarlo con la misma clave.",
+    "ca": "S'ha processat una petició en conflicte; torna-ho a intentar amb la mateixa clau.",
+    "en": "A conflicting request was processed; retry with the same key.",
+    "ar": "تمت معالجة طلب متعارض؛ أعد المحاولة بالمفتاح نفسه."
+  },
+  "upload.busy": {
+    "source": "Two video uploads are already in progress; retry later.",
+    "es": "Ya hay dos subidas de vídeo en curso; vuelve a intentarlo más tarde.",
+    "ca": "Ja hi ha dues pujades de vídeo en curs; torna-ho a intentar més tard.",
+    "en": "Two video uploads are already in progress; retry later.",
+    "ar": "هناك عمليتا رفع فيديو قيد التنفيذ؛ أعد المحاولة لاحقًا."
+  },
+  "upload.configuration": {
+    "source": "Configure an allowed Storage:UploadContainer before uploading videos.",
+    "es": "Configura un Storage:UploadContainer permitido antes de subir vídeos.",
+    "ca": "Configura un Storage:UploadContainer permès abans de pujar vídeos.",
+    "en": "Configure an allowed Storage:UploadContainer before uploading videos.",
+    "ar": "اضبط Storage:UploadContainer مسموحًا به قبل رفع الفيديوهات."
+  },
+  "upload.rendition": {
+    "source": "rendition must be a single segment using letters, numbers, underscore or hyphen.",
+    "es": "rendition debe ser un único segmento de letras, números, guion bajo o guion.",
+    "ca": "rendition ha de ser un únic segment de lletres, números, guió baix o guió.",
+    "en": "rendition must be a single segment using letters, numbers, underscore or hyphen.",
+    "ar": "يجب أن تكون rendition مقطعًا واحدًا من أحرف أو أرقام أو شرطات سفلية أو شرطات."
+  },
+  "upload.rendition_exists": {
+    "source": "An asset already exists for this language and rendition; choose a different rendition.",
+    "es": "Ya existe un archivo para este idioma y versión; elige otra versión.",
+    "ca": "Ja existeix un fitxer per a aquest idioma i versió; tria una altra versió.",
+    "en": "An asset already exists for this language and rendition; choose a different rendition.",
+    "ar": "يوجد ملف بهذه اللغة والنسخة بالفعل؛ اختر نسخة مختلفة."
+  },
+  "upload.too_large": {
+    "source": "The MP4 file must be no larger than 200 MiB.",
+    "es": "El archivo MP4 no puede superar los 200 MiB.",
+    "ca": "El fitxer MP4 no pot superar els 200 MiB.",
+    "en": "The MP4 file must be no larger than 200 MiB.",
+    "ar": "يجب ألا يتجاوز حجم ملف MP4 مقدار 200 MiB."
+  },
+  "upload.timeout": {
+    "source": "The upload exceeded its ten-minute time limit.",
+    "es": "La subida ha superado el límite de diez minutos.",
+    "ca": "La pujada ha superat el límit de deu minuts.",
+    "en": "The upload exceeded its ten-minute time limit.",
+    "ar": "تجاوز الرفع الحد الزمني البالغ عشر دقائق."
+  },
+  "form.type": {
+    "source": "Use multipart/form-data with file, language, rendition and durationMs.",
+    "es": "Usa multipart/form-data con file, language, rendition y durationMs.",
+    "ca": "Utilitza multipart/form-data amb file, language, rendition i durationMs.",
+    "en": "Use multipart/form-data with file, language, rendition and durationMs.",
+    "ar": "استخدم multipart/form-data مع file وlanguage وrendition وdurationMs."
+  },
+  "form.boundary": {
+    "source": "The multipart boundary is invalid.",
+    "es": "El delimitador multipart no es válido.",
+    "ca": "El delimitador multipart no és vàlid.",
+    "en": "The multipart boundary is invalid.",
+    "ar": "حد الفصل multipart غير صالح."
+  },
+  "form.section": {
+    "source": "Invalid multipart section.",
+    "es": "La sección multipart no es válida.",
+    "ca": "La secció multipart no és vàlida.",
+    "en": "Invalid multipart section.",
+    "ar": "قسم multipart غير صالح."
+  },
+  "form.one_file": {
+    "source": "Exactly one file field is required.",
+    "es": "Se requiere exactamente un campo file.",
+    "ca": "Cal exactament un camp file.",
+    "en": "Exactly one file field is required.",
+    "ar": "يلزم وجود حقل file واحد فقط."
+  },
+  "form.extension": {
+    "source": "The file must have an .mp4 extension.",
+    "es": "El archivo debe tener extensión .mp4.",
+    "ca": "El fitxer ha de tenir extensió .mp4.",
+    "en": "The file must have an .mp4 extension.",
+    "ar": "يجب أن يكون امتداد الملف .mp4."
+  },
+  "form.content_type": {
+    "source": "The file content type must be video/mp4 or application/octet-stream.",
+    "es": "El tipo de contenido del archivo debe ser video/mp4 o application/octet-stream.",
+    "ca": "El tipus de contingut del fitxer ha de ser video/mp4 o application/octet-stream.",
+    "en": "The file content type must be video/mp4 or application/octet-stream.",
+    "ar": "يجب أن يكون نوع محتوى الملف video/mp4 أو application/octet-stream."
+  },
+  "form.duplicate": {
+    "source": "Unknown or duplicate multipart field.",
+    "es": "Hay un campo multipart desconocido o duplicado.",
+    "ca": "Hi ha un camp multipart desconegut o duplicat.",
+    "en": "Unknown or duplicate multipart field.",
+    "ar": "يوجد حقل multipart غير معروف أو مكرر."
+  },
+  "form.required": {
+    "source": "A nonempty MP4 file, language, rendition and positive integer durationMs are required.",
+    "es": "Se requieren un archivo MP4 no vacío, language, rendition y durationMs entero positivo.",
+    "ca": "Calen un fitxer MP4 no buit, language, rendition i durationMs enter positiu.",
+    "en": "A nonempty MP4 file, language, rendition and positive integer durationMs are required.",
+    "ar": "يلزم ملف MP4 غير فارغ وحقول language وrendition وقيمة صحيحة موجبة لـdurationMs."
+  },
+  "form.signature": {
+    "source": "The file must start with an MP4 ftyp box.",
+    "es": "El archivo debe empezar con una cabecera MP4 ftyp.",
+    "ca": "El fitxer ha de començar amb una capçalera MP4 ftyp.",
+    "en": "The file must start with an MP4 ftyp box.",
+    "ar": "يجب أن يبدأ الملف برأس MP4 ftyp."
+  },
+  "form.unreadable": {
+    "source": "The multipart request could not be read.",
+    "es": "No se ha podido leer la petición multipart.",
+    "ca": "No s'ha pogut llegir la petició multipart.",
+    "en": "The multipart request could not be read.",
+    "ar": "تعذرت قراءة طلب multipart."
+  },
+  "form.field_length": {
+    "source": "Multipart field is too long.",
+    "es": "El campo multipart es demasiado largo.",
+    "ca": "El camp multipart és massa llarg.",
+    "en": "Multipart field is too long.",
+    "ar": "حقل multipart طويل جدًا."
+  },
+  "import.heights": {
+    "source": "heights must contain one to four distinct values from 1080, 720, 480 and 360.",
+    "es": "heights debe contener entre uno y cuatro valores distintos de 1080, 720, 480 y 360.",
+    "ca": "heights ha de contenir entre un i quatre valors diferents de 1080, 720, 480 i 360.",
+    "en": "heights must contain one to four distinct values from 1080, 720, 480 and 360.",
+    "ar": "يجب أن تحتوي heights على قيمة إلى أربع قيم مختلفة من 1080 و720 و480 و360."
+  },
+  "import.url": {
+    "source": "Use an HTTPS YouTube watch, shorts, embed or youtu.be URL with a single eleven-character video ID. Only si, feature, t and start tracking parameters are accepted and discarded.",
+    "es": "Usa una URL HTTPS de YouTube watch, shorts, embed o youtu.be con un único ID de once caracteres. Solo se admiten y descartan los parámetros si, feature, t y start.",
+    "ca": "Utilitza una URL HTTPS de YouTube watch, shorts, embed o youtu.be amb un únic ID d'onze caràcters. Només s'admeten i es descarten els paràmetres si, feature, t i start.",
+    "en": "Use an HTTPS YouTube watch, shorts, embed or youtu.be URL with a single eleven-character video ID. Only si, feature, t and start tracking parameters are accepted and discarded.",
+    "ar": "استخدم عنوان HTTPS من YouTube بصيغة watch أو shorts أو embed أو youtu.be مع معرّف فيديو واحد من أحد عشر حرفًا. تُقبل معاملات si وfeature وt وstart فقط ثم تُحذف."
+  },
+  "import.disabled": {
+    "source": "YouTube imports are not enabled.",
+    "es": "Las importaciones de YouTube no están activadas.",
+    "ca": "Les importacions de YouTube no estan activades.",
+    "en": "YouTube imports are not enabled.",
+    "ar": "استيراد YouTube غير مفعّل."
+  },
+  "import.configuration": {
+    "source": "Invalid video import limits.",
+    "es": "Los límites de importación de vídeo no son válidos.",
+    "ca": "Els límits d'importació de vídeo no són vàlids.",
+    "en": "Invalid video import limits.",
+    "ar": "حدود استيراد الفيديو غير صالحة."
+  },
+  "import.queue_changed": {
+    "source": "The import queue changed; retry the request.",
+    "es": "La cola de importación ha cambiado; vuelve a intentar la petición.",
+    "ca": "La cua d'importació ha canviat; torna a intentar la petició.",
+    "en": "The import queue changed; retry the request.",
+    "ar": "تغيّرت قائمة انتظار الاستيراد؛ أعد محاولة الطلب."
+  },
+  "import.in_progress": {
+    "source": "Espera a que termine la importación actual para solicitar otras resoluciones.",
+    "es": "Espera a que termine la importación actual para solicitar otras resoluciones.",
+    "ca": "Espera que acabi la importació actual per sol·licitar altres resolucions.",
+    "en": "Wait for the current import to finish before requesting other resolutions.",
+    "ar": "انتظر انتهاء الاستيراد الحالي قبل طلب دقات أخرى."
+  },
+  "import.not_found": {
+    "source": "No se ha encontrado la importación.",
+    "es": "No se ha encontrado la importación.",
+    "ca": "No s'ha trobat la importació.",
+    "en": "The import could not be found.",
+    "ar": "لم يتم العثور على عملية الاستيراد."
+  },
+  "import.interrupted": {
+    "source": "La importación fue interrumpida. Puedes volver a intentarlo.",
+    "es": "La importación se ha interrumpido. Puedes volver a intentarlo.",
+    "ca": "La importació s'ha interromput. Pots tornar-ho a intentar.",
+    "en": "The import was interrupted. You can retry it.",
+    "ar": "انقطع الاستيراد. يمكنك إعادة المحاولة."
+  },
+  "youtube.rate_limited": {"source": "YouTube paused downloads. The import will resume automatically.", "es": "YouTube ha limitado las descargas. La cola volverá a intentarlo en cinco minutos.", "ca": "YouTube ha limitat les baixades. La cua ho tornarà a provar d’aquí a cinc minuts.", "en": "YouTube limited downloads. The queue will retry in five minutes.", "ar": "فرض YouTube قيودًا على التنزيلات. ستعيد قائمة الانتظار المحاولة خلال خمس دقائق."},
+  "import.timeout": {
+    "source": "La importación superó el tiempo máximo. Puedes volver a intentarlo.",
+    "es": "La importación ha superado el tiempo máximo. Puedes volver a intentarlo.",
+    "ca": "La importació ha superat el temps màxim. Pots tornar-ho a intentar.",
+    "en": "The import exceeded its time limit. You can retry it.",
+    "ar": "تجاوز الاستيراد الحد الزمني. يمكنك إعادة المحاولة."
+  },
+  "import.storage": {
+    "source": "No se pudo acceder al almacenamiento de vídeos.",
+    "es": "No se ha podido acceder al almacenamiento de vídeos.",
+    "ca": "No s'ha pogut accedir a l'emmagatzematge de vídeos.",
+    "en": "Video storage could not be accessed.",
+    "ar": "تعذر الوصول إلى تخزين الفيديوهات."
+  },
+  "import.asset_conflict": {
+    "source": "Ya existe una versión pendiente o deshabilitada con esa resolución.",
+    "es": "Ya existe una versión pendiente o deshabilitada con esa resolución.",
+    "ca": "Ja existeix una versió pendent o desactivada amb aquesta resolució.",
+    "en": "A pending or disabled version already exists at that resolution.",
+    "ar": "توجد نسخة معلّقة أو معطّلة بهذه الدقة بالفعل."
+  },
+  "import.failed": {
+    "source": "No se pudo completar la importación. Consulta el código de error y vuelve a intentarlo.",
+    "es": "No se ha podido completar la importación. Consulta el código de error y vuelve a intentarlo.",
+    "ca": "No s'ha pogut completar la importació. Consulta el codi d'error i torna-ho a intentar.",
+    "en": "The import could not be completed. Check the error code and retry.",
+    "ar": "تعذر إكمال الاستيراد. راجع رمز الخطأ وأعد المحاولة."
+  },
+  "import.prepared_limit": {
+    "source": "The prepared video exceeds import limits.",
+    "es": "El vídeo preparado supera los límites de importación.",
+    "ca": "El vídeo preparat supera els límits d'importació.",
+    "en": "The prepared video exceeds import limits.",
+    "ar": "الفيديو المُجهّز يتجاوز حدود الاستيراد."
+  },
+  "import.duplicate_rendition": {
+    "source": "Duplicate prepared rendition.",
+    "es": "Hay una versión preparada duplicada.",
+    "ca": "Hi ha una versió preparada duplicada.",
+    "en": "Duplicate prepared rendition.",
+    "ar": "توجد نسخة مُجهّزة مكررة."
+  },
+  "import.rendition_metadata": {
+    "source": "Invalid prepared rendition metadata.",
+    "es": "Los metadatos de la versión preparada no son válidos.",
+    "ca": "Les metadades de la versió preparada no són vàlides.",
+    "en": "Invalid prepared rendition metadata.",
+    "ar": "البيانات الوصفية للنسخة المُجهّزة غير صالحة."
+  },
+  "import.rendition_not_ready": {
+    "source": "An existing rendition is not ready.",
+    "es": "Una versión existente no está lista.",
+    "ca": "Una versió existent no està preparada.",
+    "en": "An existing rendition is not ready.",
+    "ar": "إحدى النسخ الموجودة غير جاهزة."
+  },
+  "import.size_mismatch": {
+    "source": "Prepared file size does not match its metadata.",
+    "es": "El tamaño del archivo preparado no coincide con sus metadatos.",
+    "ca": "La mida del fitxer preparat no coincideix amb les metadades.",
+    "en": "Prepared file size does not match its metadata.",
+    "ar": "حجم الملف المُجهّز لا يطابق بياناته الوصفية."
+  },
+  "import.upload_container": {
+    "source": "Configure an allowed upload container.",
+    "es": "Configura un contenedor de subida permitido.",
+    "ca": "Configura un contenidor de pujada permès.",
+    "en": "Configure an allowed upload container.",
+    "ar": "اضبط حاوية رفع مسموحًا بها."
+  },
+  "import.lease_lost": {
+    "source": "The job no longer owns its lease.",
+    "es": "El trabajo ya no tiene un permiso de ejecución vigente.",
+    "ca": "La tasca ja no té un permís d'execució vigent.",
+    "en": "The job no longer owns its execution lease.",
+    "ar": "لم تعد المهمة تملك إذن تنفيذ ساريًا."
+  },
+  "import.progress_stage": {
+    "source": "Invalid import progress stage.",
+    "es": "La etapa de progreso de importación no es válida.",
+    "ca": "L'etapa de progrés d'importació no és vàlida.",
+    "en": "Invalid import progress stage.",
+    "ar": "مرحلة تقدم الاستيراد غير صالحة."
+  },
+  "import.input": {
+    "source": "El identificador de YouTube o las resoluciones no son válidos.",
+    "es": "El identificador de YouTube o las resoluciones no son válidos.",
+    "ca": "L'identificador de YouTube o les resolucions no són vàlids.",
+    "en": "The YouTube ID or resolutions are invalid.",
+    "ar": "معرّف YouTube أو الدقات غير صالحة."
+  },
+  "import.temp_directory": {
+    "source": "No está disponible el directorio temporal de importación.",
+    "es": "El directorio temporal de importación no está disponible.",
+    "ca": "El directori temporal d'importació no està disponible.",
+    "en": "The temporary import directory is unavailable.",
+    "ar": "مجلد الاستيراد المؤقت غير متاح."
+  },
+  "import.tools": {
+    "source": "No están disponibles las herramientas de importación de vídeo en el servidor.",
+    "es": "Las herramientas de importación de vídeo no están disponibles en el servidor.",
+    "ca": "Les eines d'importació de vídeo no estan disponibles al servidor.",
+    "en": "Video import tools are unavailable on the server.",
+    "ar": "أدوات استيراد الفيديو غير متاحة على الخادم."
+  },
+  "import.output_limit": {
+    "source": "La herramienta de vídeo ha superado el límite de respuesta.",
+    "es": "La herramienta de vídeo ha superado el límite de respuesta.",
+    "ca": "L'eina de vídeo ha superat el límit de resposta.",
+    "en": "The video tool exceeded its response limit.",
+    "ar": "تجاوزت أداة الفيديو حد الاستجابة."
+  },
+  "import.workspace_limit": {
+    "source": "La importación ha superado el espacio temporal permitido.",
+    "es": "La importación ha superado el espacio temporal permitido.",
+    "ca": "La importació ha superat l'espai temporal permès.",
+    "en": "The import exceeded its temporary storage allowance.",
+    "ar": "تجاوز الاستيراد مساحة التخزين المؤقت المسموح بها."
+  },
+  "youtube.unavailable": {
+    "source": "No se ha podido consultar el vídeo. Comprueba que sea público u oculto y que la URL sea correcta.",
+    "es": "No se ha podido consultar el vídeo. Comprueba que sea público u oculto y que la URL sea correcta.",
+    "ca": "No s'ha pogut consultar el vídeo. Comprova que sigui públic o ocult i que la URL sigui correcta.",
+    "en": "The video could not be checked. Make sure it is public or unlisted and that the URL is correct.",
+    "ar": "تعذر التحقق من الفيديو. تأكد من أنه عام أو غير مُدرج وأن عنوان URL صحيح."
+  },
+  "youtube.unsupported": {
+    "source": "Solo se admiten vídeos individuales terminados; no directos ni listas.",
+    "es": "Solo se admiten vídeos individuales terminados; no directos ni listas.",
+    "ca": "Només s'admeten vídeos individuals finalitzats; no directes ni llistes.",
+    "en": "Only completed individual videos are supported; not live streams or playlists.",
+    "ar": "يُسمح فقط بالفيديوهات الفردية المكتملة، وليس البث المباشر أو قوائم التشغيل."
+  },
+  "import.duration_max": {
+    "source": "El vídeo debe durar como máximo {maxDuration} segundos.",
+    "es": "El vídeo debe durar como máximo {maxDuration} segundos.",
+    "ca": "El vídeo ha de durar com a màxim {maxDuration} segons.",
+    "en": "The video must be no longer than {maxDuration} seconds.",
+    "ar": "يجب ألا تتجاوز مدة الفيديو {maxDuration} ثانية."
+  },
+  "import.duration_limit": {
+    "source": "La duración real del archivo supera el límite permitido.",
+    "es": "La duración real del archivo supera el límite permitido.",
+    "ca": "La durada real del fitxer supera el límit permès.",
+    "en": "The actual file duration exceeds the permitted limit.",
+    "ar": "مدة الملف الفعلية تتجاوز الحد المسموح به."
+  },
+  "youtube.download": {
+    "source": "No se ha podido descargar el vídeo de YouTube. Puedes reintentar la importación más tarde.",
+    "es": "No se ha podido descargar el vídeo de YouTube. Puedes reintentar la importación más tarde.",
+    "ca": "No s'ha pogut descarregar el vídeo de YouTube. Pots tornar a intentar la importació més tard.",
+    "en": "The YouTube video could not be downloaded. You can retry the import later.",
+    "ar": "تعذر تنزيل فيديو YouTube. يمكنك إعادة محاولة الاستيراد لاحقًا."
+  },
+  "import.probe": {
+    "source": "No se ha podido comprobar el archivo de vídeo.",
+    "es": "No se ha podido comprobar el archivo de vídeo.",
+    "ca": "No s'ha pogut comprovar el fitxer de vídeo.",
+    "en": "The video file could not be checked.",
+    "ar": "تعذر التحقق من ملف الفيديو."
+  },
+  "import.video_track": {
+    "source": "El archivo no contiene una pista de vídeo válida.",
+    "es": "El archivo no contiene una pista de vídeo válida.",
+    "ca": "El fitxer no conté una pista de vídeo vàlida.",
+    "en": "The file does not contain a valid video track.",
+    "ar": "لا يحتوي الملف على مسار فيديو صالح."
+  },
+  "import.invalid_media": {
+    "source": "El archivo descargado no es un MP4 compatible.",
+    "es": "El archivo de vídeo no es un MP4 compatible.",
+    "ca": "El fitxer de vídeo no és un MP4 compatible.",
+    "en": "The video file is not a supported MP4.",
+    "ar": "ملف الفيديو ليس بصيغة MP4 مدعومة."
+  },
+  "import.dimensions": {
+    "source": "Las dimensiones del vídeo no son compatibles con la importación.",
+    "es": "Las dimensiones del vídeo no son compatibles con la importación.",
+    "ca": "Les dimensions del vídeo no són compatibles amb la importació.",
+    "en": "The video dimensions are not supported for importing.",
+    "ar": "أبعاد الفيديو غير مدعومة للاستيراد."
+  },
+  "import.transcode": {
+    "source": "No se ha podido generar una de las versiones MP4.",
+    "es": "No se ha podido generar una de las versiones MP4.",
+    "ca": "No s'ha pogut generar una de les versions MP4.",
+    "en": "One of the MP4 versions could not be generated.",
+    "ar": "تعذر إنشاء إحدى نسخ MP4."
+  },
+  "import.truncated": {
+    "source": "Una versión generada no coincide con el vídeo original o se ha truncado.",
+    "es": "Una versión generada no coincide con el vídeo original o se ha truncado.",
+    "ca": "Una versió generada no coincideix amb el vídeo original o s'ha truncat.",
+    "en": "A generated version does not match the original video or was truncated.",
+    "ar": "إحدى النسخ المُنشأة لا تطابق الفيديو الأصلي أو تم اقتطاعها."
+  },
+  "import.prepare_timeout": {
+    "source": "La preparación del vídeo ha superado el tiempo máximo permitido.",
+    "es": "La preparación del vídeo ha superado el tiempo máximo permitido.",
+    "ca": "La preparació del vídeo ha superat el temps màxim permès.",
+    "en": "Video preparation exceeded the permitted time limit.",
+    "ar": "تجاوز تجهيز الفيديو الحد الزمني المسموح به."
+  },
+  "import.invalid_metadata": {
+    "source": "La herramienta no ha devuelto metadatos de vídeo válidos.",
+    "es": "La herramienta no ha devuelto metadatos de vídeo válidos.",
+    "ca": "L'eina no ha retornat metadades de vídeo vàlides.",
+    "en": "The tool did not return valid video metadata.",
+    "ar": "لم تُرجع الأداة بيانات وصفية صالحة للفيديو."
+  },
+  "import.unreadable_metadata": {
+    "source": "No se han podido comprobar los metadatos del vídeo.",
+    "es": "No se han podido comprobar los metadatos del vídeo.",
+    "ca": "No s'han pogut comprovar les metadades del vídeo.",
+    "en": "The video metadata could not be checked.",
+    "ar": "تعذر التحقق من البيانات الوصفية للفيديو."
+  },
+  "import.no_mp4": {
+    "source": "No se ha generado un archivo MP4 válido.",
+    "es": "No se ha generado un archivo MP4 válido.",
+    "ca": "No s'ha generat un fitxer MP4 vàlid.",
+    "en": "A valid MP4 file was not generated.",
+    "ar": "لم يتم إنشاء ملف MP4 صالح."
+  },
+  "import.file_limit": {
+    "source": "El vídeo supera el máximo de 200 MiB por archivo.",
+    "es": "El vídeo supera el máximo de 200 MiB por archivo.",
+    "ca": "El vídeo supera el màxim de 200 MiB per fitxer.",
+    "en": "The video exceeds the 200 MiB limit per file.",
+    "ar": "يتجاوز الفيديو الحد الأقصى البالغ 200 MiB لكل ملف."
+  },
+  "csv.empty": {
+    "source": "Select a CSV file containing at least one video.",
+    "es": "Selecciona un archivo CSV con al menos un vídeo.",
+    "ca": "Selecciona un fitxer CSV amb almenys un vídeo.",
+    "en": "Select a CSV file containing at least one video.",
+    "ar": "اختر ملف CSV يحتوي على فيديو واحد على الأقل."
+  },
+  "csv.size": {
+    "source": "The CSV file must not exceed 1 MiB.",
+    "es": "El archivo CSV no puede superar 1 MiB.",
+    "ca": "El fitxer CSV no pot superar 1 MiB.",
+    "en": "The CSV file must not exceed 1 MiB.",
+    "ar": "يجب ألا يتجاوز حجم ملف CSV واحد ميبيبايت."
+  },
+  "csv.encoding": {
+    "source": "The CSV file must use valid UTF-8 encoding.",
+    "es": "El archivo CSV debe usar una codificación UTF-8 válida.",
+    "ca": "El fitxer CSV ha de tenir una codificació UTF-8 vàlida.",
+    "en": "The CSV file must use valid UTF-8 encoding.",
+    "ar": "يجب أن يستخدم ملف CSV ترميز UTF-8 صالحًا."
+  },
+  "csv.syntax": {
+    "source": "The CSV contains malformed quoted fields.",
+    "es": "El CSV contiene campos entrecomillados incorrectos.",
+    "ca": "El CSV conté camps entre cometes incorrectes.",
+    "en": "The CSV contains malformed quoted fields.",
+    "ar": "يحتوي ملف CSV على حقول مقتبسة غير صحيحة."
+  },
+  "csv.headers": {
+    "source": "Use unique Referencia, Titulo, URL and Calidades headers; URL and Calidades are required.",
+    "es": "Usa cabeceras únicas Referencia, Titulo, URL y Calidades; URL y Calidades son obligatorias.",
+    "ca": "Utilitza capçaleres úniques Referencia, Titulo, URL i Calidades; URL i Calidades són obligatòries.",
+    "en": "Use unique Referencia, Titulo, URL and Calidades headers; URL and Calidades are required.",
+    "ar": "استخدم عناوين Referencia وTitulo وURL وCalidades بدون تكرار؛ URL وCalidades إلزاميان."
+  },
+  "csv.limit": {
+    "source": "The CSV must contain at most 500 video rows.",
+    "es": "El CSV puede contener como máximo 500 filas de vídeos.",
+    "ca": "El CSV pot contenir com a màxim 500 files de vídeos.",
+    "en": "The CSV must contain at most 500 video rows.",
+    "ar": "يجب ألا يحتوي ملف CSV على أكثر من 500 صف فيديو."
+  },
+  "csv.columns": {
+    "source": "The row must contain the same number of columns as the header.",
+    "es": "La fila debe tener el mismo número de columnas que la cabecera.",
+    "ca": "La fila ha de tenir el mateix nombre de columnes que la capçalera.",
+    "en": "The row must contain the same number of columns as the header.",
+    "ar": "يجب أن يحتوي الصف على نفس عدد أعمدة العنوان."
+  },
+  "csv.reference": {
+    "source": "Referencia must contain at most 128 characters without control characters.",
+    "es": "Referencia puede contener como máximo 128 caracteres sin caracteres de control.",
+    "ca": "Referencia pot contenir com a màxim 128 caràcters sense caràcters de control.",
+    "en": "Referencia must contain at most 128 characters without control characters.",
+    "ar": "يجب ألا تتجاوز Referencia عدد 128 حرفًا بدون أحرف تحكم."
+  },
+  "csv.title": {
+    "source": "Titulo must contain at most 300 characters without control characters.",
+    "es": "Titulo puede contener como máximo 300 caracteres sin caracteres de control.",
+    "ca": "Titulo pot contenir com a màxim 300 caràcters sense caràcters de control.",
+    "en": "Titulo must contain at most 300 characters without control characters.",
+    "ar": "يجب ألا يتجاوز Titulo عدد 300 حرف بدون أحرف تحكم."
+  },
+  "csv.heights": {
+    "source": "Calidades is required; use 1080p;720p;480p;360p or a subset separated by semicolons.",
+    "es": "Calidades es obligatorio; usa 1080p;720p;480p;360p o un subconjunto separado por punto y coma.",
+    "ca": "Calidades és obligatori; utilitza 1080p;720p;480p;360p o un subconjunt separat per punt i coma.",
+    "en": "Calidades is required; use 1080p;720p;480p;360p or a subset separated by semicolons.",
+    "ar": "Calidades إلزامي؛ استخدم 1080p;720p;480p;360p أو بعضها مفصولًا بفواصل منقوطة."
+  },
+  "csv.canonical": {
+    "source": "A youtube: reference must match the URL video ID.",
+    "es": "Una referencia youtube: debe coincidir con el ID del vídeo de la URL.",
+    "ca": "Una referència youtube: ha de coincidir amb l’ID del vídeo de la URL.",
+    "en": "A youtube: reference must match the URL video ID.",
+    "ar": "يجب أن يتطابق مرجع youtube: مع معرّف الفيديو في URL."
+  },
+  "csv.url": {
+    "source": "URL is required and must be an accepted HTTPS YouTube video URL.",
+    "es": "URL es obligatorio y debe ser una URL HTTPS de vídeo YouTube admitida.",
+    "ca": "URL és obligatori i ha de ser una URL HTTPS de vídeo YouTube admesa.",
+    "en": "URL is required and must be an accepted HTTPS YouTube video URL.",
+    "ar": "URL إلزامي ويجب أن يكون رابط فيديو YouTube مقبولًا عبر HTTPS."
+  },
+  "csv.duplicate_reference": {
+    "source": "The CSV contains a repeated reference.",
+    "es": "El CSV contiene una referencia repetida.",
+    "ca": "El CSV conté una referència repetida.",
+    "en": "The CSV contains a repeated reference.",
+    "ar": "يحتوي ملف CSV على مرجع مكرر."
+  },
+  "csv.duplicate_source": {
+    "source": "The CSV contains a repeated YouTube video.",
+    "es": "El CSV contiene un vídeo YouTube repetido.",
+    "ca": "El CSV conté un vídeo YouTube repetit.",
+    "en": "The CSV contains a repeated YouTube video.",
+    "ar": "يحتوي ملف CSV على فيديو YouTube مكرر."
+  },
+  "csv.reserved": {
+    "source": "This reference is reserved by another YouTube video.",
+    "es": "Esta referencia está reservada por otro vídeo YouTube.",
+    "ca": "Aquesta referència està reservada per un altre vídeo YouTube.",
+    "en": "This reference is reserved by another YouTube video.",
+    "ar": "هذا المرجع محجوز لفيديو YouTube آخر."
+  },
+  "csv.source_conflict": {
+    "source": "This reference belongs to a different or unverified video source.",
+    "es": "Esta referencia pertenece a un vídeo de origen diferente o no verificado.",
+    "ca": "Aquesta referència pertany a un vídeo d’origen diferent o no verificat.",
+    "en": "This reference belongs to a different or unverified video source.",
+    "ar": "ينتمي هذا المرجع إلى مصدر فيديو مختلف أو غير موثّق."
+  },
+  "csv.active_metadata": {
+    "source": "The active import has different reference or title metadata.",
+    "es": "La importación activa tiene una referencia o un título diferentes.",
+    "ca": "La importació activa té una referència o un títol diferents.",
+    "en": "The active import has different reference or title metadata.",
+    "ar": "للاستيراد النشط مرجع أو عنوان مختلف."
+  },
+  "csv.active_heights": {
+    "source": "Wait for the active import before requesting additional resolutions.",
+    "es": "Espera a que termine la importación activa para solicitar otras resoluciones.",
+    "ca": "Espera que acabi la importació activa per sol·licitar altres resolucions.",
+    "en": "Wait for the active import before requesting additional resolutions.",
+    "ar": "انتظر اكتمال الاستيراد النشط قبل طلب دقات إضافية."
+  },
+  "csv.existing_title": {
+    "source": "The existing video has a different title; CSV imports preserve existing titles.",
+    "es": "El vídeo existente tiene otro título; las importaciones CSV conservan los títulos existentes.",
+    "ca": "El vídeo existent té un altre títol; les importacions CSV conserven els títols existents.",
+    "en": "The existing video has a different title; CSV imports preserve existing titles.",
+    "ar": "للفيديو الحالي عنوان مختلف؛ تحتفظ استيرادات CSV بالعناوين الحالية."
+  },
+  "csv.queue_changed": {
+    "source": "The import queue changed; preview the CSV again before importing.",
+    "es": "La cola de importaciones ha cambiado; vuelve a validar el CSV antes de importarlo.",
+    "ca": "La cua d’importacions ha canviat; torna a validar el CSV abans d’importar-lo.",
+    "en": "The import queue changed; preview the CSV again before importing.",
+    "ar": "تغيّرت قائمة الاستيراد؛ عاين ملف CSV مجددًا قبل الاستيراد."
+  },
+  "csv.content_type": {
+    "source": "The request must use application/json.",
+    "es": "La petición debe usar application/json.",
+    "ca": "La petició ha d’utilitzar application/json.",
+    "en": "The request must use application/json.",
+    "ar": "يجب أن يستخدم الطلب application/json."
+  },
+  "csv.body_size": {
+    "source": "The CSV request must not exceed 2 MiB.",
+    "es": "La petición CSV no puede superar 2 MiB.",
+    "ca": "La petició CSV no pot superar 2 MiB.",
+    "en": "The CSV request must not exceed 2 MiB.",
+    "ar": "يجب ألا يتجاوز حجم طلب CSV اثنين ميبيبايت."
+  },
+  "csv.body": {
+    "source": "The CSV request must contain a JSON object with a csv string.",
+    "es": "La petición CSV debe contener un objeto JSON con un campo csv de texto.",
+    "ca": "La petició CSV ha de contenir un objecte JSON amb un camp csv de text.",
+    "en": "The CSV request must contain a JSON object with a csv string.",
+    "ar": "يجب أن يحتوي طلب CSV على كائن JSON بحقل csv نصي."
+  },
+  "private_catalogue.1": {
+    "source": "Private video assets must use the quota-aware upload route.",
+    "es": "Usa la ruta de subida privada para aplicar la cuota.",
+    "ca": "Fes servir la ruta de pujada privada per aplicar la quota.",
+    "en": "Private video assets must use the quota-aware upload route.",
+    "ar": "استخدم مسار الرفع الخاص لتطبيق الحصة."
+  },
+  "private_catalogue.2": {
+    "source": "Assign this video through the principal's delegated catalogue.",
+    "es": "Asigna este vídeo desde el catálogo delegado del partner principal.",
+    "ca": "Assigna aquest vídeo des del catàleg delegat del partner principal.",
+    "en": "Assign this video through the principal's delegated catalogue.",
+    "ar": "عيّن هذا الفيديو من خلال الكتالوج المفوض للشريك الرئيسي."
+  },
+  "private_catalogue.3": {
+    "source": "The private: namespace is reserved for partner uploads.",
+    "es": "El prefijo private: está reservado para subidas de partners.",
+    "ca": "El prefix private: està reservat per a pujades de partners.",
+    "en": "The private: namespace is reserved for partner uploads.",
+    "ar": "البادئة private: مخصصة لملفات الشركاء المرفوعة."
+  },
+  "private_catalogue.4": {
+    "source": "Private upload references are immutable.",
+    "es": "La referencia de origen de una subida privada es fija.",
+    "ca": "La referència d’origen d’una pujada privada és fixa.",
+    "en": "Private upload references are immutable.",
+    "ar": "مرجع المصدر للرفع الخاص ثابت."
+  },
+  "private_catalogue.5": {
+    "source": "Private upload assets must use the quota-aware upload workflow.",
+    "es": "Usa el flujo de subida privada para aplicar la cuota.",
+    "ca": "Fes servir el flux de pujada privada per aplicar la quota.",
+    "en": "Private upload assets must use the quota-aware upload workflow.",
+    "ar": "استخدم سير عمل الرفع الخاص لتطبيق الحصة."
+  },
+  "private_catalogue.6": {
+    "source": "Subpartners cannot manage or delegate to another level.",
+    "es": "Los subpartners no pueden gestionar ni delegar a otro nivel.",
+    "ca": "Els subpartners no poden gestionar ni delegar a un altre nivell.",
+    "en": "Subpartners cannot manage or delegate to another level.",
+    "ar": "لا يمكن للشركاء الفرعيين إدارة مستوى آخر أو التفويض إليه."
+  },
+  "private_catalogue.7": {
+    "source": "rendition must use letters, numbers, underscore or hyphen.",
+    "es": "La calidad debe usar letras, números, guion bajo o guion.",
+    "ca": "La qualitat ha de fer servir lletres, números, guió baix o guió.",
+    "en": "rendition must use letters, numbers, underscore or hyphen.",
+    "ar": "يجب أن يستخدم اسم الجودة حروفًا أو أرقامًا أو شرطات."
+  },
+  "private_catalogue.8": {
+    "source": "This licence does not have enough private upload capacity.",
+    "es": "La licencia no tiene cuota suficiente para esta subida privada.",
+    "ca": "La llicència no té prou quota per a aquesta pujada privada.",
+    "en": "This licence does not have enough private upload capacity.",
+    "ar": "لا تتوفر سعة كافية لهذه العملية في الترخيص."
+  },
+  "private_catalogue.9": {
+    "source": "Licence was not found.",
+    "es": "No se encontró la licencia.",
+    "ca": "No s’ha trobat la llicència.",
+    "en": "Licence was not found.",
+    "ar": "لم يتم العثور على الترخيص."
+  },
+  "private_catalogue.10": {
+    "source": "This licence does not permit private video uploads.",
+    "es": "Esta licencia no permite subidas privadas.",
+    "ca": "Aquesta llicència no permet pujades privades.",
+    "en": "This licence does not permit private video uploads.",
+    "ar": "هذا الترخيص لا يسمح برفع فيديوهات خاصة."
+  },
+  "private_catalogue.11": {
+    "source": "expiresAt must be a future UTC timestamp.",
+    "es": "expiresAt debe ser una fecha futura en UTC.",
+    "ca": "expiresAt ha de ser una data futura en UTC.",
+    "en": "expiresAt must be a future UTC timestamp.",
+    "ar": "يجب أن يكون expiresAt توقيتًا مستقبليًا بتوقيت UTC."
+  },
+  "private_catalogue.12": {
+    "source": "Subpartner credential is unavailable.",
+    "es": "La credencial del subpartner no está disponible.",
+    "ca": "La credencial del subpartner no està disponible.",
+    "en": "Subpartner credential is unavailable.",
+    "ar": "بيانات اعتماد الشريك الفرعي غير متاحة."
+  },
+  "private_catalogue.13": {
+    "source": "Source license is unavailable.",
+    "es": "La licencia de origen no está disponible.",
+    "ca": "La llicència d’origen no està disponible.",
+    "en": "Source license is unavailable.",
+    "ar": "ترخيص المصدر غير متاح."
+  },
+  "private_catalogue.14": {
+    "source": "Use allCurrent or videoIds.",
+    "es": "Usa allCurrent o videoIds.",
+    "ca": "Fes servir allCurrent o videoIds.",
+    "en": "Use allCurrent or videoIds.",
+    "ar": "استخدم allCurrent أو videoIds."
+  },
+  "private_catalogue.15": {
+    "source": "The source license does not allow catalogue delegation.",
+    "es": "La licencia de origen no permite delegar el catálogo.",
+    "ca": "La llicència d’origen no permet delegar el catàleg.",
+    "en": "The source license does not allow catalogue delegation.",
+    "ar": "ترخيص المصدر لا يسمح بتفويض الكتالوج."
+  },
+  "private_catalogue.16": {
+    "source": "A requested video is outside the source catalogue.",
+    "es": "Un vídeo solicitado no pertenece al catálogo de origen.",
+    "ca": "Un vídeo sol·licitat no pertany al catàleg d’origen.",
+    "en": "A requested video is outside the source catalogue.",
+    "ar": "أحد الفيديوهات المطلوبة خارج كتالوج المصدر."
+  },
+  "private_catalogue.17": {
+    "source": "The principal cannot configure private uploads for its subpartners.",
+    "es": "El partner principal no puede configurar subidas privadas para sus subpartners.",
+    "ca": "El partner principal no pot configurar pujades privades per als seus subpartners.",
+    "en": "The principal cannot configure private uploads for its subpartners.",
+    "ar": "لا يستطيع الشريك الرئيسي إعداد الرفع الخاص لشركائه الفرعيين."
+  },
+  "private_catalogue.18": {
+    "source": "The principal does not have an active license allowing subpartner management.",
+    "es": "El partner principal no tiene una licencia activa para gestionar subpartners.",
+    "ca": "El partner principal no té una llicència activa per gestionar subpartners.",
+    "en": "The principal does not have an active license allowing subpartner management.",
+    "ar": "لا يملك الشريك الرئيسي ترخيصًا نشطًا لإدارة الشركاء الفرعيين."
+  },
+  "private_catalogue.19": {
+    "source": "Subpartner is unavailable.",
+    "es": "El subpartner no está disponible.",
+    "ca": "El subpartner no està disponible.",
+    "en": "Subpartner is unavailable.",
+    "ar": "الشريك الفرعي غير متاح."
+  },
+  "private_catalogue.20": {
+    "source": "Subpartner license is unavailable.",
+    "es": "La licencia del subpartner no está disponible.",
+    "ca": "La llicència del subpartner no està disponible.",
+    "en": "Subpartner license is unavailable.",
+    "ar": "ترخيص الشريك الفرعي غير متاح."
+  },
+  "private_catalogue.21": {
+    "source": "Choose the upload quota mode when enabling uploads.",
+    "es": "Elige el modo de cuota al habilitar las subidas.",
+    "ca": "Tria el mode de quota quan habilitis les pujades.",
+    "en": "Choose the upload quota mode when enabling uploads.",
+    "ar": "اختر وضع الحصة عند تفعيل الرفع."
+  },
+  "private_catalogue.22": {
+    "source": "Set uploadQuotaMode to storage (bytes), videos or unlimited and supply a positive limit for a limited mode.",
+    "es": "Usa storage (bytes), videos o unlimited y un límite positivo si corresponde.",
+    "ca": "Fes servir storage (bytes), videos o unlimited i un límit positiu si escau.",
+    "en": "Set uploadQuotaMode to storage (bytes), videos or unlimited and supply a positive limit for a limited mode.",
+    "ar": "اختر storage أو videos أو unlimited وأدخل حدًا موجبًا للأوضاع المحدودة."
+  },
+  "private_catalogue.23": {
+    "source": "A quota limit requires uploadQuotaMode.",
+    "es": "Un límite de cuota requiere uploadQuotaMode.",
+    "ca": "Un límit de quota requereix uploadQuotaMode.",
+    "en": "A quota limit requires uploadQuotaMode.",
+    "ar": "يتطلب حد الحصة تحديد uploadQuotaMode."
+  },
+  "private_catalogue.24": {
+    "source": "A matching resource already exists.",
+    "es": "Ya existe un recurso con los mismos datos.",
+    "ca": "Ja existeix un recurs amb les mateixes dades.",
+    "en": "A matching resource already exists.",
+    "ar": "يوجد بالفعل مورد مطابق."
+  },
+  "takeout.source_missing": {
+    "source": "No local Takeout file is mapped to this YouTube ID.",
+    "es": "No hay un archivo local de Takeout asociado a este ID de YouTube.",
+    "ca": "No hi ha cap fitxer local de Takeout associat a aquest ID de YouTube.",
+    "en": "No local Takeout file is mapped to this YouTube ID.",
+    "ar": "لا يوجد ملف Takeout محلي مرتبط بمعرف YouTube هذا."
+  },
+  "takeout.invalid_manifest": {
+    "source": "The Takeout manifest must contain unique YouTube IDs and safe relative video paths.",
+    "es": "El manifiesto de Takeout debe contener IDs de YouTube únicos y rutas relativas de vídeo seguras.",
+    "ca": "El manifest de Takeout ha de contenir IDs de YouTube únics i rutes relatives de vídeo segures.",
+    "en": "The Takeout manifest must contain unique YouTube IDs and safe relative video paths.",
+    "ar": "يجب أن يتضمن بيان Takeout معرّفات YouTube فريدة ومسارات نسبية آمنة للفيديو."
+  },
+  "takeout.source_limit": {
+    "source": "The local Takeout source exceeds the maximum size of 1 GiB.",
+    "es": "El archivo de origen de Takeout supera el máximo de 1 GiB.",
+    "ca": "El fitxer d’origen de Takeout supera el màxim d’1 GiB.",
+    "en": "The local Takeout source exceeds the maximum size of 1 GiB.",
+    "ar": "يتجاوز ملف Takeout المحلي الحد الأقصى البالغ 1 GiB."
+  }
+}
